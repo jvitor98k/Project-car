@@ -198,19 +198,25 @@ header{
         margin-top: 100px;
     }
 
+    .header-left p {
+        text-align: justify;
+    }
+
     
 
 }
 
 /*apartir de 700px para baixo*/
 @media (max-width: 700px){
+    
+
+
     nav {
-        margin: auto;
+        margin: 0;
+        padding: 0;
         max-width: 100%;
         text-align: center;
-        font-size: 4px;
-        
-        
+        font-size: 10px;
     }
 
     nav h3 {
@@ -218,14 +224,30 @@ header{
     }
 
     .header-left p {
-        font-size: 10px;
+        font-size: 14px;
+        text-align: justify;
+        
     }
 
     .carro{
-        max-width: 100%;
+        max-width: min-content;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
+    .containerheader-container{
+        display: none;
+    }
     
+    .header-right{
+        display: none;
+    }
+
+    .social-link{
+        display: none;
+    }
 
 }
 
@@ -239,7 +261,13 @@ header{
 
     .header-left h3 {
         font-size: 20px;
+        
     }
+    
+    .header-left p {
+        text-align: justify;
+    }
+
 
     
 
@@ -272,6 +300,18 @@ header{
         text-align: center;
         
         
+    }
+
+    .header-left p{
+        text-align: justify;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .containerheader-container{
+        display: none;
     }
 
     
