@@ -202,14 +202,30 @@ header{
 
 }
 
-/*apartir de 1000px para baixo*/
+/*apartir de 700px para baixo*/
 @media (max-width: 700px){
-    nav h3{
-        display: flex;
+    nav {
+        margin: auto;
+        max-width: 100%;
+        text-align: center;
+        font-size: 4px;
         
         
     }
 
+    nav h3 {
+        display: none;
+    }
+
+    .header-left p {
+        font-size: 10px;
+    }
+
+    .carro{
+        max-width: 100%;
+    }
+
+    
 
 }
 
@@ -257,6 +273,8 @@ header{
         
         
     }
+
+    
 
     
   }
